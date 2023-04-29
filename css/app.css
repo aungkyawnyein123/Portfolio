@@ -1,0 +1,83 @@
+* {
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar ul li a:hover {
+    color: #8806CE;
+}
+
+#header a {
+    background-color: #3700B3;
+    color: white;
+}
+
+#header a:hover {
+    background-color: #8806CE;
+}
+
+#contact #icon a {
+    border-radius: 100%;
+}
+
+#contact #icon a:hover {
+    transition: 0.5s;
+    background-color: #8806CE;
+}
+
+#contact #icon a i {
+    transform: scale(1.5);
+}
+
+#contact #icon a i:hover {
+    color: white !important;
+    border-radius: 100%;
+}
+
+#contact #message input {
+    background-color: #1F1B24;
+    color: white;
+    height: 3em;
+    border: 0;
+}
+
+#contact #message textarea {
+    background-color: #1F1B24;
+    color: white;
+    height: 7em;
+    border: 0;
+}
+
+#contact #message input::placeholder {
+    color: white;
+}
+
+#contact #message textarea::placeholder {
+    color: white;
+}
+
+#contact #message a {
+    background-color: #3700B3;
+    color: white;
+}
+
+#contact #message a:hover {
+    background-color: #8806CE;
+    color: white;
+}
+
+#education #project a {
+    background-color: #3700B3;
+    color: white;
+}
+
+#education #project a:hover {
+    background-color: #8806CE;
+    color: white;
+}
