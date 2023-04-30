@@ -22,13 +22,42 @@ body {
     background-color: #8806CE;
 }
 
+#about a {
+    background-color: #3700B3;
+    color: white;
+}
+
+#about a:hover {
+    background-color: #8806CE;
+}
+
+#skill .btn {
+    background-color: #3700B3;
+    color: white;
+}
+
+#skill .btn:hover {
+    background-color: #8806CE;
+}
+
+#skill #skillcard .card {
+    background-color: #1F1B24;
+}
+
+#skill #skillcard .card:hover {
+    background-color: #8806CE;
+    transition: 0.5s;
+}
+
+
 #contact #icon a {
     border-radius: 100%;
+    background-color: #8806CE;
 }
 
 #contact #icon a:hover {
     transition: 0.5s;
-    background-color: #8806CE;
+    background-color: white;
 }
 
 #contact #icon a i {
@@ -36,7 +65,7 @@ body {
 }
 
 #contact #icon a i:hover {
-    color: white !important;
+    color: #8806CE !important;
     border-radius: 100%;
 }
 
@@ -80,4 +109,16 @@ body {
 #education #project a:hover {
     background-color: #8806CE;
     color: white;
+}
+
+#arrowup a {
+    background-color: #3700B3;
+    color: white;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+#arrowup a:hover {
+    background-color: #8806CE;
 }
