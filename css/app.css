@@ -22,6 +22,17 @@ body {
     background-color: #8806CE;
 }
 
+#about img {
+    width: 230px;
+    height: auto;
+    border-radius: 100%;
+    border: 5px double;
+}
+
+#about img:hover {
+    border-color: #8806CE;
+}
+
 #about a {
     background-color: #3700B3;
     color: white;
@@ -40,15 +51,31 @@ body {
     background-color: #8806CE;
 }
 
-#skill #skillcard .card {
-    background-color: #1F1B24;
+#skill li {
+    border-bottom: 1px solid white;
+    display: table;
+    width: 100%;
+    padding: 5px;
 }
 
-#skill #skillcard .card:hover {
+#skill li span {
+    float: right;
+}
+
+#skill #skillcard .circleskill {
+    background-color: #1F1B24;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    padding: 70px 0;
+    border: 3px double white;
+    text-align: center;
+}
+
+#skill #skillcard .circleskill:hover {
     background-color: #8806CE;
     transition: 0.5s;
 }
-
 
 #contact #icon a {
     border-radius: 100%;
@@ -109,6 +136,18 @@ body {
 #education #project a:hover {
     background-color: #8806CE;
     color: white;
+}
+
+#education #project img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    border: 5px;
+    border-style: double;
+}
+
+#education #project img:hover {
+    border-color: #8806CE;
 }
 
 #arrowup a {
