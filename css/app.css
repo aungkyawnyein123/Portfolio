@@ -4,42 +4,49 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
 .navbar ul li a:hover {
     color: #8806CE;
 }
 
 #header a {
-    background-color: #3700B3;
+    background-color: #8806CE;
     color: white;
 }
 
 #header a:hover {
-    background-color: #8806CE;
+    background-color: white;
+    transition: 0.5s;
+    color: #8806CE;
 }
+
+#header a:hover i {
+    color: #8806CE;
+    transition: 0.5s;
+}
+
 
 #about img {
     width: 230px;
     height: auto;
-    border-radius: 100%;
-    border: 5px double;
-}
-
-#about img:hover {
-    border-color: #8806CE;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border: 5px inset #8806CE;
 }
 
 #about a {
-    background-color: #3700B3;
+    background-color: #8806CE;
     color: white;
 }
 
 #about a:hover {
-    background-color: #8806CE;
+    background-color: white;
+    color: #8806CE;
+    transition: 0.5s;
+}
+
+#about a:hover i {
+    color: #8806CE;
+    transition: 0.5s;
 }
 
 #skill .btn {
@@ -62,38 +69,19 @@ body {
     float: right;
 }
 
-#skill #skillcard .circleskill {
-    background-color: #1F1B24;
-    height: 250px;
-    width: 250px;
-    margin: auto;
-    padding: 70px 0;
-    border: 3px double white;
-    text-align: center;
-}
-
-#skill #skillcard .circleskill:hover {
-    background-color: #8806CE;
-    transition: 0.5s;
-}
-
 #contact #icon a {
     border-radius: 100%;
     background-color: #8806CE;
 }
 
 #contact #icon a:hover {
-    transition: 0.5s;
     background-color: white;
+    transition: 0.5s;
 }
 
-#contact #icon a i {
-    transform: scale(1.5);
-}
-
-#contact #icon a i:hover {
-    color: #8806CE !important;
-    border-radius: 100%;
+#contact #icon a:hover i {
+    color: #8806CE;
+    transition: 0.5s;
 }
 
 #contact #message input {
@@ -119,39 +107,89 @@ body {
 }
 
 #contact #message a {
-    background-color: #3700B3;
+    background-color: #8806CE;
     color: white;
 }
 
 #contact #message a:hover {
+    background-color: white;
+    color: #8806CE;
+    transition: 0.5s;
+}
+
+#contact #message a:hover i {
+    color: #8806CE;
+    transition: 0.5s;
+}
+
+#project a {
     background-color: #8806CE;
     color: white;
 }
 
-#education #project a {
-    background-color: #3700B3;
-    color: white;
+#project a:hover {
+    background-color: white;
+    color: #8806CE;
+    transition: 0.5s;
 }
 
-#education #project a:hover {
-    background-color: #8806CE;
-    color: white;
+#project a:hover i {
+    color: #8806CE;
+    transition: 0.5s;
 }
 
-#education #project img {
-    width: 250px;
+#project .project-gif img {
+    width: 280px;
     height: auto;
     border-radius: 5px;
     border: 5px;
-    border-style: double;
+    border-style: inset;
+    border-color: #8806CE;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#education #project img:hover {
-    border-color: #8806CE;
+#project .project-gif img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#project span {
+    padding: 5px;
+    margin: 5px;
+    background-color: #8806CE;
+    border-radius: 10px;
+}
+
+#project ul {
+    padding: 0;
+    margin: 0;
+}
+
+#project ul li {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+#project span:hover {
+    background-color: white;
+    color: #8806CE;
+    transition: 0.5s;
+}
+
+#project .project-img img {
+    border: #8806CE inset;
+}
+
+#project .project-img img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 #arrowup a {
-    background-color: #3700B3;
+    background-color: #8806CE;
     color: white;
     position: fixed;
     bottom: 5px;
@@ -159,5 +197,11 @@ body {
 }
 
 #arrowup a:hover {
-    background-color: #8806CE;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#arrowup a:hover i {
+    color: #8806CE;
+    transition: 0.5s;
 }

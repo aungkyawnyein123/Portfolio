@@ -13,7 +13,7 @@
 </head>
 
 <body style="background-image: url(img/Starry-Sky-Night.jpg); width: 100%; background-repeat: no-repeat; background-size: cover;
-    background-attachment: fixed;">
+    background-attachment: fixed;overflow-x: hidden;">
     <nav class="navbar navbar-expand-lg navbar-dark p-3 sticky-top"
         style="background-image: url(img/nova.jpg); background-size: cover; width: 100%; background-repeat: no-repeat; background-attachment: fixed;">
         <div class="container-fluid">
@@ -29,10 +29,13 @@
                         <a class="nav-link px-4" href="#about" style="font-weight: bold;">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-4" href="#skill" style="font-weight: bold;">Skill</a>
+                        <a class="nav-link px-4" href="#skill" style="font-weight: bold;">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-4" href="#education" style="font-weight: bold;">Education</a>
+                        <a class="nav-link px-4" href="#qualification" style="font-weight: bold;">Qualifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#project" style="font-weight: bold;">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-4" href="#contact" style="font-weight: bold;">Contact</a>
@@ -42,17 +45,15 @@
         </div>
     </nav>
     <header id="header" style="position: relative;width: 100%; padding-top: 70px;">
-        <div class="container my-5" id=" header">
-            <div class="row">
-                <div data-aos="zoom-in-down" class="col-md-5 my-2">
-                    <h1>Welcome to my</h1>
-                    <h1 style="color: #B00020;">Portfolio</h1>
-                    <p>I am a Junior Software Developer. I am a Open-source enthusiast and self learner. With my skills
-                        in simple design and ease of use, I want to help you improve your business.</p>
-                    <a href="#about" class="btn">Let's get Started! &nbsp;<i class="fa-solid fa-angles-down"></i></a>
-                </div>
-                <div data-aos="zoom-in-left" class="col-md-7 text-center"><img src="img/laptop-cat.jpg" alt=""
-                        style="width: 70%; height: auto; border: 5px; border-style: double;"></div>
+
+        <div class="container my-5 text-center" id=" header">
+            <div style="width: 60%; margin: auto;" data-aos="zoom-in-down">
+                <h1>Welcome to My</h1>
+                <h1 style="color: #B00020;">Portfolio</h1>
+                <p style="font-size: 20px;">I am a Junior Software Developer. I am a Open-source enthusiast and self
+                    learner. With my skills
+                    in simple design and ease of use, I want to help you improve your business.</p>
+                <a href="#about" class="btn">Let's get Started! &nbsp;<i class="fa-solid fa-angles-down"></i></a>
             </div>
         </div>
     </header>
@@ -60,16 +61,13 @@
         <div data-aos="fade-up" data-aos-duration="500" class="container my-5" style="padding-top: 70px;">
             <div class="my-5 text-center">
                 <h1>About me</h1>
-                <p>Introduction</p>
+                <p>Who am I</p>
             </div>
             <div class="row" style="align-items: center;">
-                <div class="col-md-4 text-end my-2"><img src="img/Fat-Cat.png" alt=""></div>
+                <div class="col-md-4 my-2 text-center"><img src="img/Fat-Cat.png" alt=""></div>
                 <div class="col-md-6 mx-auto p-3 rounded-3" style="background-color: #1F1B24; text-align: justify;">
                     <p>
-                        Hello, I am a fat cat in
-                        a tuxedo, 23 years old. I am going to eat a fine dinner with tuna and milk. exquisite dining
-                        indeed,
-                        which is why my hooman dressed me up in the tuxedo.
+                        Hello, My name is Aung Kyaw Nyein, 23 years old.
                         I earned my degree in computer science from the University of Greenwich. I have a strong desire
                         to
                         learn programming on my own. I am now completing an internship because I want to gain work
@@ -83,67 +81,73 @@
     <section id="skill">
         <div data-aos="fade-up" data-aos-duration="500" class="container my-5" style="padding-top: 70px;">
             <div class="my-5 text-center">
-                <h1>Skill</h1>
-                <p>These are the programming languages and tools that I use when working on projects.</p>
+                <h1>Skills</h1>
+                <p>These are the programming languages and tools I am an expert at and use when working on projects.</p>
             </div>
             <div class="row my-3">
-                <div class="col-md-9 p-3 mx-auto rounded-3 my-3" style="background-color: #1F1B24;">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2 class="text-center"><i class="fa-solid fa-laptop-code"
-                                    style="color: #8806CE; font-size: 30px;"></i></h2>
-                            <h4 class="text-center">Programing Languages</h4>
-                            <ul style="list-style: none; padding: 0; margin: 0;">
-                                <li><i class="fa-brands fa-html5" style="font-size: 25px; color: #8806CE;"></i>
-                                    <span>HTML</span>
-                                </li>
-                                <li><i class="fa-brands fa-css3-alt" style="font-size: 25px;color: #8806CE;"></i>
-                                    <span>CSS</span>
-                                </li>
-                                <li><i class="fa-brands fa-java" style="font-size: 25px;color: #8806CE;"></i>
-                                    <span>Java</span>
-                                </li>
-                                <li><i class="fa-brands fa-php" style="font-size: 25px;color: #8806CE;"></i>
-                                    <span>PHP</span>
-                                </li>
-                                <li><i class="fa-brands fa-python" style="font-size: 25px;color: #8806CE;"></i>
-                                    <span>Python</span>
-                                </li>
-                                <li><span>MySQL</span></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4" style="border-left: 1px solid white;border-right: 1px solid white">
-                            <h2 class="text-center"><i class="fa-brands fa-hive"
-                                    style="color: #8806CE; font-size: 30px;"></i></h2>
-                            <h4 class="text-center">Library & Framework</h4>
-                            <ul style="list-style: none; padding: 0; margin: 0;">
-                                <li><i class="fa-brands fa-laravel" style="font-size: 25px;color: #8806CE;"></i>
-                                    <span>Bootstrap</span>
-                                </li>
-                                <li><i class="fa-brands fa-bootstrap" style="font-size: 25px;color: #8806CE;"></i>
-                                    <span>Laravel</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <h2 class="text-center"><i class="fa-solid fa-wrench"
-                                    style="color: #8806CE; font-size: 30px;"></i></h2>
-                            <h4 class="text-center">Tools</h4>
-                            <ul style="list-style: none; padding: 0; margin: 0;">
+                <div class="col-md-4">
+                    <div class=" p-3 mx-auto rounded-3 my-3" style="background-color: #1F1B24; height: 370px;">
+                        <h2 class="text-center"><i class="fa-solid fa-laptop-code"
+                                style="color: #8806CE; font-size: 30px;"></i></h2>
+                        <h4 class="text-center">Programing Languages</h4>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li><i class="fa-brands fa-html5" style="font-size: 25px; color: #8806CE;"></i>
+                                <span>HTML</span>
+                            </li>
+                            <li><i class="fa-brands fa-css3-alt" style="font-size: 25px;color: #8806CE;"></i>
+                                <span>CSS</span>
+                            </li>
+                            <li><i class="fa-brands fa-java" style="font-size: 25px;color: #8806CE;"></i>
+                                <span>Java</span>
+                            </li>
+                            <li><i class="fa-brands fa-php" style="font-size: 25px;color: #8806CE;"></i>
+                                <span>PHP</span>
+                            </li>
+                            <li><i class="fa-brands fa-python" style="font-size: 25px;color: #8806CE;"></i>
+                                <span>Python</span>
+                            </li>
+                            <li><i class="fa-solid fa-database"
+                                    style="font-size: 25px;color: #8806CE;"></i><span>MySQL</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class=" p-3 mx-auto rounded-3 my-3" style="background-color: #1F1B24; height: 370px;">
+                        <h2 class="text-center"><i class="fa-brands fa-hive"
+                                style="color: #8806CE; font-size: 30px;"></i></h2>
+                        <h4 class="text-center">Library & Framework</h4>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li><i class="fa-brands fa-laravel" style="font-size: 25px;color: #8806CE;"></i>
+                                <span>Bootstrap</span>
+                            </li>
+                            <li><i class="fa-brands fa-bootstrap" style="font-size: 25px;color: #8806CE;"></i>
+                                <span>Laravel</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class=" p-3 mx-auto rounded-3 my-3" style="background-color: #1F1B24; height: 370px;">
+                        <h2 class="text-center"><i class="fa-solid fa-wrench"
+                                style="color: #8806CE; font-size: 30px;"></i></h2>
+                        <h4 class="text-center">Tools</h4>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
 
-                                <li><i class="fa-brands fa-git-alt"
-                                        style="font-size: 25px;color: #8806CE;"></i><span>Git</span>
-                                </li>
+                            <li><i class="fa-brands fa-git-alt"
+                                    style="font-size: 25px;color: #8806CE;"></i><span>Git</span>
+                            </li>
 
 
-                                <li><i class="fa-brands fa-github"
-                                        style="font-size: 25px;color: #8806CE;"></i><span>Github</span>
-                                </li>
-                                <li><span> VS Code</span></li>
+                            <li><i class="fa-brands fa-github"
+                                    style="font-size: 25px;color: #8806CE;"></i><span>Github</span>
+                            </li>
+                            <li><i class="fa-solid fa-code" style="font-size: 25px;color: #8806CE;"></i></i><span> VS
+                                    Code</span></li>
 
-                                <li><span>Xampp</span> </li>
-                            </ul>
-                        </div>
+                            <li><i class="fa-solid fa-bone" style="font-size: 25px;color: #8806CE;"></i>
+                                <span>Xampp</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -151,55 +155,142 @@
         </div>
         </div>
     </section>
-    <section id="education">
+    <section id="qualification">
         <div data-aos="fade-up" data-aos-duration="500" class="container my-5" style="padding-top: 70px;">
             <div class="my-5 text-center">
-                <h1>Education</h1>
-                <p>Qualifications and Certificates</p>
+                <h1>Qualifications</h1>
+                <p>Education and Certificates</p>
             </div>
             <div class="row my-3" style="justify-content: space-around;">
-                <div class="col-md-5 rounded-3 border border-0 rounded-3 p-3 my-3" style="background-color: #1F1B24;">
-                    <h4>Education <i class="fa-solid fa-graduation-cap" style="color: #8806CE;"></i></h4>
-                    <ul class="my-3" style="list-style: none; padding: 0; margin: 0;">
-                        <li>&nbsp; # &nbsp;University of
-                            Greenwich Computing
-                            (2021-2022)</li>
-                        <li>&nbsp; # &nbsp;KMD Institute, NCC Education (2018-2020) </li>
-                    </ul>
-                    <h4>Experience <i class="fa-solid fa-suitcase" style="color: #8806CE;"></i></h4>
-                    <ul class="my-3" style="list-style: none; padding: 0; margin: 0;">
-                        <li>&nbsp; # &nbsp;No work experience but has School Project experiences</li>
-                        <li>&nbsp; # &nbsp;Point of sale System</li>
-                        <li>&nbsp; # &nbsp;Booking System</li>
-                        <li>&nbsp; # &nbsp;Banking System</li>
-                        <li>&nbsp; # &nbsp;Library Management System</li>
-                        <li>&nbsp; # &nbsp;School Management System (Group)</li>
-                    </ul>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="rounded-3 border border-0 rounded-3 p-3 my-3"
+                                style="background-color: #1F1B24;">
+                                <h4><i class="fa-solid fa-graduation-cap" style="color: #8806CE; font-size: 25px;"></i>
+                                    Education
+                                </h4>
+                                <ul class="my-3" style="list-style: none; padding: 0; margin: 0;">
+                                    <li>&nbsp; # &nbsp;University of
+                                        Greenwich Computing
+                                        (2021-2022)</li>
+                                    <li>&nbsp; # &nbsp;KMD Institute, NCC Education (2018-2020) </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class=" rounded-3 border border-0 rounded-3 p-3 my-3"
+                                style="background-color: #1F1B24;">
+                                <h4><i class="fa-solid fa-suitcase" style="color: #8806CE; font-size: 25px;"></i>
+                                    Experience
+                                </h4>
+                                <ul class="my-3" style="list-style: none; padding: 0; margin: 0;">
+                                    <li>&nbsp; # &nbsp;No work experience but has School Project experiences</li>
+                                    <li>&nbsp; # &nbsp;Point of sale System</li>
+                                    <li>&nbsp; # &nbsp;Booking System</li>
+                                    <li>&nbsp; # &nbsp;Banking System</li>
+                                    <li>&nbsp; # &nbsp;Library Management System</li>
+                                    <li>&nbsp; # &nbsp;School Management System (Group)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-5 rounded-3 border border-0 rounded-3 p-3 my-3" style="background-color: #1F1B24;">
-                    <h4>Certificates <i class="fa-solid fa-certificate" style="color: #8806CE;"></i></h4>
-                    <ul class="my-3" style="list-style: none; padding: 0; margin: 0;">
-                        <li>&nbsp; # &nbsp;IT Essentials, M3Wi (2016)</li>
-                        <li>&nbsp; # &nbsp;L4DC KMD NCC (2019)</li>
-                        <li>&nbsp; # &nbsp;L5DC KMD NCC (2020)</li>
-                        <li>&nbsp; # &nbsp;Information Technology KMD NCC (2018) </li>
-                        <li>&nbsp; # &nbsp;English Pre Intermediate KMD NCC (2018) </li>
-                        <li>&nbsp; # &nbsp;B.Sc. (Hons) Computing, UOG (2022) </li>
-                    </ul>
+                <div class="col-md-6">
+                    <div class="rounded-3 border border-0 rounded-3 p-3 my-3" style="background-color: #1F1B24;">
+                        <h4><i class="fa-solid fa-certificate" style="color: #8806CE; font-size: 25px;"></i>
+                            Certificates
+                        </h4>
+                        <ul class="my-3" style="list-style: none; padding: 0; margin: 0;">
+                            <li>&nbsp; # &nbsp;IT Essentials, M3Wi (2016)</li>
+                            <li>&nbsp; # &nbsp;L4DC KMD NCC (2019)</li>
+                            <li>&nbsp; # &nbsp;L5DC KMD NCC (2020)</li>
+                            <li>&nbsp; # &nbsp;Information Technology KMD NCC (2018) </li>
+                            <li>&nbsp; # &nbsp;English Pre Intermediate KMD NCC (2018) </li>
+                            <li>&nbsp; # &nbsp;B.Sc. (Hons) Computing, UOG (2022) </li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="project">
+        <div data-aos="fade-up" data-aos-duration="500" class="container my-5" style="padding-top: 70px;">
+            <div class="my-5 text-center">
+                <h1>Projects</h1>
+                <p>The projects I have designed and built</p>
             </div>
             <div id="project">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" class="row">
-                    <div class="col-md-6 p-5">
-                        <img src="img/snom.gif" alt="" class="float-end">
+                    <div class="col-md-6 p-5 my-3 mx-auto">
+                        <div class="project-gif">
+                            <img src="img/snom.gif" alt="">
+
+                        </div>
                     </div>
-                    <div class="col-md-6 p-5">
+                    <div class="col-md-6 p-5 my-3">
                         <h4>Projects</h4>
                         <p>The recent projects are in my GitHub repositories.</p>
                         <a href="" class="btn">Check out &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
+            <div class="row my-3">
+                <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 mx-auto my-3">
+                    <div class="rounded-3 border border-0 rounded-3 p-3 my-3" style="background-color: #1F1B24;">
+                        <div class="row my-3" style="align-items: center;">
+                            <div class="col-md-6">
+                                <h3>Gym & Fitness</h3>
+                                <p>This project is about the gym and includes information such as the services they
+                                    provide, membership options, gym news, and more. Bootstrap was used to create this
+                                    project.</p>
+                                <h4>Technologies</h4>
+                                <div>
+                                    <ul>
+                                        <li><span>HTML</span><span>CSS</span><span>
+                                                JavaScript</span><span>SCSS</span><span>BootStrap</span><span>Font
+                                                Awesome</span></li>
+                                        <li><span>Animation on Scroll</span></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 project-img"><img src="img/project1.PNG" alt=""
+                                    style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 mx-auto my-3">
+                    <div class="rounded-3 border border-0 rounded-3 p-3 my-3" style="background-color: #1F1B24;">
+                        <div class="row my-3" style="align-items: center;">
+                            <div class="col-md-6">
+                                <h3>Softcomm</h3>
+                                <p>This project is about the Websites & Web Application Development and includes
+                                    information such as the services they
+                                    provide, team members and more. Bootstrap was used to create this
+                                    project. </p>
+                                <h4>Technologies</h4>
+                                <div>
+                                    <ul>
+                                        <li><span>HTML</span><span>CSS</span><span>
+                                                JavaScript</span><span>SCSS</span><span>BootStrap</span><span>Font
+                                                Awesome</span></li>
+                                        <li><span>Animation on Scroll</span></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 project-img"><img src="img/project2.PNG" alt=""
+                                    style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <section id="contact" style="padding-top: 70px;">
@@ -210,7 +301,7 @@
             </div>
             <div class="container">
                 <div class="row my-3">
-                    <div class="col-md-5 border border-0 rounded-3 p-3" style="background-color: #1F1B24;">
+                    <div class="col-md-5 border border-0 rounded-3 p-3 my-3" style="background-color: #1F1B24;">
                         <h2>Contact Info</h2>
                         <div class="row">
                             <div class="col-md-12 p-2 my-1">
@@ -219,26 +310,24 @@
                             </div>
                             <div class="col-md-12 p-2 my-1"><i class="fa-solid fa-envelope"
                                     style="color: #8806CE; font-size: 20px;"></i>
-                                &nbsp; suagdsaldg@gmail.com</div>
+                                &nbsp; aungkyawnyein123@gmail.com</div>
                             <div class="col-md-12 p-2 my-1"><i class="fa-solid fa-location-dot"
                                     style="color: #8806CE; font-size: 20px;"></i>
-                                &nbsp; No 911, fslakh Township , slakdhsald Street, Myanmar (Burma)</div>
+                                &nbsp; No 51, Hlaing Township , Butaryone Street, Myanmar (Burma)</div>
                             <div class="col-md-12 text-center mt-3" id="icon">
-                                <a href="" class="btn p-1 mx-2" style="position: relative;"><i id="logo"
-                                        class="fa-brands fa-facebook p-2"
-                                        style="color: white; font-size: 15px;"></i></a>
-                                <a href="" class="btn p-1 mx-2" style="position: relative;"><i id="logo"
-                                        class="fa-brands fa-twitter p-2" style="color: white; font-size: 15px;"></i></a>
-                                <a href="" class="btn p-1 mx-2" style="position: relative;"><i id="logo"
-                                        class="fa-brands fa-github p-2" style="color: white; font-size: 15px;"></i></a>
-                                <a href="" class="btn p-1 mx-2" style="position: relative;"><i id="logo"
-                                        class="fa-brands fa-linkedin-in p-2"
-                                        style="color: white; font-size: 15px;"></i></a>
+                                <a href="" class="social-btn btn p-1 mx-2" style="position: relative;"><i id="logo"
+                                        class="fa-brands fa-facebook p-2" style=" font-size: 18px;"></i></a>
+                                <a href="" class="social-btn btn p-1 mx-2" style="position: relative;"><i id="logo"
+                                        class="fa-brands fa-twitter p-2" style="font-size: 18px;"></i></a>
+                                <a href="" class="social-btn btn p-1 mx-2" style="position: relative;"><i id="logo"
+                                        class="fa-brands fa-github p-2" style="font-size: 18px;"></i></a>
+                                <a href="" class="social-btn btn p-1 mx-2" style="position: relative;"><i id="logo"
+                                        class="fa-brands fa-linkedin p-2" style="font-size: 18px;"></i></a>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 my-3">
                         <form action="" id="message">
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="exampleFormControlInput1"
