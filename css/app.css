@@ -150,11 +150,6 @@
     margin-right: auto;
 }
 
-#project .project-gif img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
 #project span {
     padding: 5px;
     margin: 5px;
@@ -181,11 +176,6 @@
 
 #project .project-img img {
     border: #8806CE inset;
-}
-
-#project .project-img img:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
 }
 
 #arrowup a {
