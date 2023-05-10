@@ -194,3 +194,24 @@
     color: #8806CE;
     transition: 0.5s;
 }
+
+#qualification .certificates li a{
+    color: white;
+    text-decoration: none;
+}
+
+#qualification .certificates li a:hover{
+    color: #8806CE;
+    transition: 0.2s;
+}
+
+#qualification .certificates li a:hover i{
+    color: #8806CE;
+    transition: 0.2s;
+}
+
+#qualification ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
