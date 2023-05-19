@@ -4,8 +4,47 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.navbar ul li a:hover {
+.bg-first {
+    background-color: #1F1B24;
+}
+
+body {
+    background-image: url(../img/Starry-Sky-Night.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+body p {
+    font-size: 1.1rem;
+}
+
+.topic-heading {
+    padding-top: 70px;
+}
+
+.navbar {
+    background-image: url(../img/nova.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.navbar li {
+    font-weight: bold;
+}
+
+.navbar li a {
+    transition: all 0.5s;
+}
+
+.navbar li a:hover {
     color: #8806CE;
+    transform: scale(1.2);
 }
 
 #header .container {
@@ -67,9 +106,29 @@
     background-color: #8806CE;
 }
 
+#skill .skill-card {
+    min-height: 380px;
+    height: auto;
+}
+
+#skill .skill-card .lg-icon {
+    color: #8806CE;
+    font-size: 30px;
+}
+
+#skill .skill-card .sm-icon {
+    font-size: 25px;
+    color: #8806CE;
+}
+
+#skill ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 #skill li {
     border-bottom: 1px solid white;
-    display: table;
     width: 100%;
     padding: 5px;
 }
@@ -175,6 +234,8 @@
 
 #project .project-img img {
     border: #8806CE inset;
+    width: 100%;
+    height: auto;
 }
 
 #arrowup a {
@@ -195,23 +256,31 @@
     transition: 0.5s;
 }
 
-#qualification .certificates li a{
+#qualification i {
+    color: #8806CE;
+    font-size: 25px;
+}
+
+#qualification .certificates li a {
     color: white;
     text-decoration: none;
 }
 
-#qualification .certificates li a:hover{
+#qualification .certificates li i {
+    color: white;
+    font-size: 16px;
+}
+
+#qualification .certificates li a:hover {
     color: #8806CE;
     transition: 0.2s;
 }
 
-#qualification .certificates li a:hover i{
+#qualification .certificates li a:hover i {
     color: #8806CE;
     transition: 0.2s;
 }
 
 #qualification ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style-type: "#  ";
 }
