@@ -1,11 +1,30 @@
 * {
-    font-size: 18px;
+    font-size: 1.1rem;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .bg-first {
     background-color: #1F1B24;
+}
+
+.btn-first {
+    color: white;
+    background-color: #8806CE;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn-first:hover {
+    color: #8806CE;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.btn-first:hover i {
+    color: #8806CE;
+    transition: 0.5s;
 }
 
 body {
@@ -15,10 +34,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
-}
-
-body p {
-    font-size: 1.1rem;
 }
 
 .topic-heading {
@@ -81,31 +96,6 @@ body p {
     border: 5px inset #8806CE;
 }
 
-#about a {
-    background-color: #8806CE;
-    color: white;
-}
-
-#about a:hover {
-    background-color: white;
-    color: #8806CE;
-    transition: 0.5s;
-}
-
-#about a:hover i {
-    color: #8806CE;
-    transition: 0.5s;
-}
-
-#skill .btn {
-    background-color: #3700B3;
-    color: white;
-}
-
-#skill .btn:hover {
-    background-color: #8806CE;
-}
-
 #skill .skill-card {
     min-height: 380px;
     height: auto;
@@ -137,73 +127,33 @@ body p {
     float: right;
 }
 
-#contact #icon a {
-    border-radius: 100%;
-    background-color: #8806CE;
-}
-
-#contact #icon a:hover {
-    background-color: white;
-    transition: 0.5s;
-}
-
-#contact #icon a:hover i {
+#qualification i {
     color: #8806CE;
-    transition: 0.5s;
+    font-size: 25px;
 }
 
-#contact #message input {
-    background-color: #1F1B24;
+#qualification .certificates li a {
     color: white;
-    height: 3em;
-    border: 0;
+    text-decoration: none;
 }
 
-#contact #message textarea {
-    background-color: #1F1B24;
+#qualification .certificates li i {
     color: white;
-    height: 7em;
-    border: 0;
+    font-size: 16px;
 }
 
-#contact #message input::placeholder {
-    color: white;
-}
-
-#contact #message textarea::placeholder {
-    color: white;
-}
-
-#contact #message a {
-    background-color: #8806CE;
-    color: white;
-}
-
-#contact #message a:hover {
-    background-color: white;
+#qualification .certificates li a:hover {
     color: #8806CE;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
-#contact #message a:hover i {
+#qualification .certificates li a:hover i {
     color: #8806CE;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
-#project a {
-    background-color: #8806CE;
-    color: white;
-}
-
-#project a:hover {
-    background-color: white;
-    color: #8806CE;
-    transition: 0.5s;
-}
-
-#project a:hover i {
-    color: #8806CE;
-    transition: 0.5s;
+#qualification ul {
+    list-style-type: "#  ";
 }
 
 #project .project-gif img {
@@ -238,6 +188,49 @@ body p {
     height: auto;
 }
 
+#contact .for-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .social-icon a {
+    width: 100%;
+    height: 100%;
+}
+
+#contact .social-icon i {
+    background-color: #8806CE;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+#contact #message input {
+    background-color: #1F1B24;
+    color: white;
+    height: 3em;
+    border: 0;
+}
+
+#contact #message textarea {
+    background-color: #1F1B24;
+    color: white;
+    min-height: 7em;
+    height: auto;
+    border: 0;
+}
+
+#contact #message input::placeholder {
+    color: white;
+}
+
+#contact #message textarea::placeholder {
+    color: white;
+}
+
 #arrowup a {
     background-color: #8806CE;
     color: white;
@@ -256,31 +249,11 @@ body p {
     transition: 0.5s;
 }
 
-#qualification i {
-    color: #8806CE;
-    font-size: 25px;
-}
-
-#qualification .certificates li a {
-    color: white;
-    text-decoration: none;
-}
-
-#qualification .certificates li i {
-    color: white;
-    font-size: 16px;
-}
-
-#qualification .certificates li a:hover {
-    color: #8806CE;
-    transition: 0.2s;
-}
-
-#qualification .certificates li a:hover i {
-    color: #8806CE;
-    transition: 0.2s;
-}
-
-#qualification ul {
-    list-style-type: "#  ";
+#footer {
+    background-image: url(../img/nova.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
 }
