@@ -173,8 +173,8 @@ body {
 }
 
 #project span {
-    padding: 5px 8px;
-    margin: 5px;
+    padding: 5px;
+    margin: 2px;
     background-color: #8806CE;
     border-radius: 10px;
     display: inline-block;
